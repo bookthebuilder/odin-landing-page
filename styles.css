@@ -1,17 +1,32 @@
-.header,.hero-area{
-    background-color:#1f2937;
-    color: #e5e7eb;
-}
-.header{
+.navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 25px;
+    background-color: #1f2937;
 }
-.links{
-    display: inline-flex;
-    margin-right: 10%;
+
+.navbar a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.hero-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #1f2937; 
 }
 .hero-header{
-    color:#f9faf8;
-    font-weight: bolder;
-    font-size: 48px;
+    justify-content: stretch;
 }
