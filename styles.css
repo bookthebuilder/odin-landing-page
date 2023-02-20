@@ -17,6 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    
 }
 .links{
     display: flex;
@@ -31,4 +32,48 @@ header{
 }
 .hero-area{
     display: flex;
+}
+.hero-area-left{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10%;
+
+}
+.hero-header{
+    color: #f9faf8;
+}
+.hero-text{
+    justify-content: flex-start;
+    width: auto;
+}
+.hero-area-right{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10%;
+}
+.product-shots{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.prodimgs-flex-container{
+    display: flex;
+}
+.prodshot{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.quote-area{
+    display: flex;
+    gap: 40px;
+    margin: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.author{
+    align-self: flex-end;
+    margin-right: 10%;
 }
