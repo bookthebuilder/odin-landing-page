@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #1f2937;
+    
 }
 li, a,button{
     font-family:"Montserrat";
@@ -17,6 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: #1f2937;
     
 }
 .links{
@@ -32,6 +33,7 @@ header{
 }
 .hero-area{
     display: flex;
+    background-color: #1f2937;
 }
 .hero-area-left{
     display: flex;
@@ -51,20 +53,39 @@ header{
     flex-direction: column;
     padding: 30px 10%;
 }
+.prodshot{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+        
+}
 .product-shots{
     display: flex;
     justify-content:center;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+
 }
 .prodimgs-flex-container{
     display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
 }
-.prodshot{
+.prodshot img{
+    scale: 70%;
+    border:#3882f6 groove 10px;
+
+
+}
+.imgtext{
     display: flex;
-    flex-direction: column;
-    gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
 }
+
 .quote-area{
     display: flex;
     gap: 40px;
@@ -72,8 +93,25 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: 36px;
 }
 .author{
     align-self: flex-end;
     margin-right: 10%;
+}
+.bottom-flexbox{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    border-radius: 180px;
+    scale: 85%;
+    font-size: 55;
+}
+.bottom-banner{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-button{
+    justify-content: flex-end;
 }
