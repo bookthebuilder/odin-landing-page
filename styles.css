@@ -10,7 +10,7 @@ body {
     align-items: center;
     width: 100%;
     height: 7%;
-    background-color: #97dd16;
+    background-color: #1f2937;
 }
 
 .section1,
@@ -37,7 +37,7 @@ body {
     margin-left: auto;
     padding-right: 50px;
     color: rgb(255, 255, 255);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .hLink {
@@ -105,11 +105,15 @@ body {
     border-radius: 10px;
     transition: 0.5s;
     cursor: pointer;
+    margin: auto;
 }
-
+.b1info{
+   margin: 10px auto;
+}
 .b1container:hover {
     width: 250px;
     height: 250px;
+    text-overflow: clip;
 }
 
 .s2boximg {
@@ -161,12 +165,48 @@ body {
 .s4box{
     width: 50%;
     border: 1px solid black;
-    min-height: 100px;
+    min-height: 200px;
     margin-right: auto;
     margin-left: auto;
+    padding: 20px;
     background-color: #3881f6;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content:space-around;
+}
+.s4hs {
+    color: #e5e7eb;
+    font-weight: lighter;
+    font-size: 1em;
+
+}
+.s4hs h1{
+    color: #e5e7eb;
+    font-size: 3em;
+    font-weight: 700;
+
+}
+button{
+    background-color: #3881f6;
+    border-radius: 12px;
+    font-size: x-large;
+    border: 2px solid white;
+    color: #e5e7eb;
+    
+}
+.s4btn:hover {background-color: #005aeb}
+
+.s4btn:active {
+  background-color: #3881f6;
+  box-shadow: 0 5px #ffffff;
+  transform: translateY(0.5px);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-weight: 500;
+    margin: auto;
 }
